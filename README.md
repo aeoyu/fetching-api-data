@@ -6,9 +6,15 @@
 
 **Pages Link :** [GitHub Page](https://aeoyu.github.io/cpnt262-a3/)
 
+## Information about Api
+
+- Simple API that searches by ISBN
+  - example: ISBN code: 9781338596700
+
 ## Attribution / Links
 
--
+- [a9b3](https://github.com/a9b3)
+  - For helping with my api
 
 ### License
 

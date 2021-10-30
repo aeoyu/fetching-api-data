@@ -1,0 +1,23 @@
+* {
+	background-color: rgb(219, 219, 219);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	padding-bottom: 2rem;
+}
+body {
+	align-items: center;
+}
+.button {
+	background-color: rgb(211, 201, 201);
+	font-size: 14px;
+	padding: 6px;
+	color: rgb(29, 29, 29);
+}
+.input {
+	padding: 6px;
+	background-color: white;
+	color: rgb(90, 90, 90);
+}
+
+.cover {
+	max-width: 100%;
+}
