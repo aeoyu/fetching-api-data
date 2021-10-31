@@ -1,6 +1,9 @@
+// Added onloaded function to process all events after the elements finishes loading
 window.onload = function () {
+	// created variables for input and button elements
 	const inputElem = document.querySelector(".input");
 	const buttonElem = document.querySelector(".button");
+	// Used Let keyword to allow variables to be reassigned
 	let inputValue = "";
 
 	inputElem.addEventListener("input", function () {
@@ -16,6 +19,7 @@ window.onload = function () {
 			.then((res) => {
 				return res.json();
 			})
+			//
 			.then((data) => {
 				const bookData = data[`ISBN:${inputValue}`];
 				console.log(data);
@@ -31,6 +35,7 @@ window.onload = function () {
 				linkElem.setAttribute("href", bookData.info_url);
 				revisionElem.innerHTML = bookData.details.revision;
 			})
+			// catch block to handle errors in JavaScript.
 			.catch((err) => {
 				console.log("ERROR: ", err);
 			});
